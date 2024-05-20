@@ -1,0 +1,105 @@
+body{
+    background-color: rgba(9, 44, 47, 1); 
+}
+
+
+.Nama.Kelompok {
+    text-align: center;
+    font-family: 'KyivTypeSerif', serif;
+    font-size: 50px;
+    color: #ffffff;
+    height: 10px;
+    width: 10px;
+}
+
+.Welcome{
+    text-align: center;
+    font-family: 'AbhayaLibreMedium';
+    font-size: 80px;
+    height: 10px;
+    color: #ffffff;
+}
+
+.Barcode{   
+        font-family: 'AbhayaLibreMedium';
+        text-align: center;
+        font-size: 65px;
+        height: 10px;
+        color: #ffffff;
+}
+
+.Text{
+    font-family:'AbhayaLibreMedium';
+    font-size: 50px;
+    text-align: center;
+    height: 15px;
+    color: #ffffff;
+}
+
+.container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: rgba(9, 44, 47, 1);
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    font-family: 'AbhayaLibreMedium' ;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    background-color: rgba(217, 217, 217, 1);
+    color: #092c2f;
+    opacity: 1;
+}
+    
+.button:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px rgba(217, 217, 217, 1);
+}
+
+.button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Vektor-container-crystal-1{
+  width: 200px;
+  height: 100px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.Vektor-graphich-crystal-1{
+  width: 200px;
+  height: 200px;
+  transform: translateY(100px) rotate(-15deg);
+}
+ 
+.Vektor-container-crystal-2{
+  position: relative;
+}
+
+.Vektor-graphich-crystal-2{
+  position: absolute;
+  top: 50%; /* posisi tengah vertikal */
+  transform: translateY(-50%); /* geser ke atas sebesar 50% tinggi gambar */
+  right: 0;
+}
